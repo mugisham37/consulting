@@ -1,6 +1,6 @@
 import React from 'react'
 
-const service = () => {
+const Service = () => {
   return (
     <section className="section_service">
                 <div className="padding-global padding-section-medium">
@@ -125,4 +125,4 @@ const service = () => {
   )
 }
 
-export default service
+export default Service

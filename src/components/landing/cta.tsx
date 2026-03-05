@@ -1,6 +1,6 @@
 import React from 'react'
 
-const cta = () => {
+const Cta = () => {
   return (
    <section className="section_cta">
                 <div className="padding-global is-cta">
@@ -41,4 +41,4 @@ const cta = () => {
   )
 }
 
-export default cta
+export default Cta

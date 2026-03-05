@@ -1,6 +1,6 @@
 import React from 'react'
 
-const statistics = () => {
+const Statistics = () => {
   return (
     <section className="section_statistic">
                 <div className="padding-global padding-section-medium">
@@ -86,4 +86,4 @@ const statistics = () => {
   )
 }
 
-export default statistics
+export default Statistics

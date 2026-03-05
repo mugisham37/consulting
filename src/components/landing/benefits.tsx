@@ -1,4 +1,6 @@
-const benefits = () => {
+import React from 'react'
+
+const Benefits = () => {
   return (
    <section className="section_benefits">
                 <div className="padding-global padding-section-medium">
@@ -69,4 +71,4 @@ const benefits = () => {
   )
 }
 
-export default benefits
+export default Benefits

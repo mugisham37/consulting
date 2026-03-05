@@ -1,6 +1,6 @@
 import React from 'react'
 
-const hero = () => {
+const Hero = () => {
     return (
         <section className="section_hero">
             <div className="padding-global padding-section-small">
@@ -73,4 +73,4 @@ const hero = () => {
     )
 }
 
-export default hero
+export default Hero

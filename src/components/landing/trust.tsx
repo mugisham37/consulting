@@ -18,13 +18,11 @@ const Trust = () => {
                             </div>
                             <div id="w-node-db77a3fc-85cd-1cf5-6ef4-8b2e1d14e6cf-1d14e6c8" className="content">
                                 <div>
-                                    <div className="tag scroll-slide-left" style={{opacity: 0}}>Trust</div>
+                                    <div className="tag scroll-slide-left" style={{opacity: 0}}>Why Elev8</div>
                                     <div className="spacer-medium"></div>
-                                    <h2 className="scroll-slide-left" style={{opacity: 0}}>Why choose us?</h2>
+                                    <h2 className="scroll-slide-left" style={{opacity: 0}}>Why Choose Elev8 Advisory?</h2>
                                     <div className="spacer-medium"></div>
-                                    <div className="text-color-secondary scroll-slide-left" style={{opacity: 0}}>We
-                                        prioritize your peace of mind with reliable coverage options. Our dedicated team
-                                        is here to support you every step of the way.</div>
+                                    <div className="text-color-secondary scroll-slide-left" style={{opacity: 0}}>We combine local expertise with international standards to deliver transparent, efficient, and results-driven investment advisory services in Rwanda.</div>
                                 </div>
                                 <div className="w-layout-grid list_grid">
                                     <div className="list_item scroll-slide-left" style={{opacity: 0}}><svg
@@ -35,10 +33,9 @@ const Trust = () => {
                                                 fill="#0A0A0A"></path>
                                         </svg>
                                         <div>
-                                            <div className="text-xl">Speed You Can Rely On</div>
+                                            <div className="text-xl">Local Expertise & Government Access</div>
                                             <div className="spacer-medium"></div>
-                                            <div className="text-color-secondary">From instant quotes to 48-hour claims
-                                                processing, we save you time (and stress).</div>
+                                            <div className="text-color-secondary">Direct coordination with RDB, RMB, REMA, and other regulatory bodies. Our established relationships ensure efficient processing and approvals.</div>
                                         </div>
                                     </div>
                                     <div className="list_item scroll-slide-left" style={{opacity: 0}}><svg
@@ -49,10 +46,9 @@ const Trust = () => {
                                                 fill="#0A0A0A"></path>
                                         </svg>
                                         <div>
-                                            <div className="text-xl">Personalized Coverage</div>
+                                            <div className="text-xl">Tailored Investment Strategies</div>
                                             <div className="spacer-medium"></div>
-                                            <div className="text-color-secondary">No two policies are alike—we tailor plans
-                                                to fit your budget and needs, not the other way around.</div>
+                                            <div className="text-color-secondary">Every investor is unique. We create customized roadmaps, regulatory strategies, and compliance plans specific to your industry and investment goals.</div>
                                         </div>
                                     </div>
                                 </div>

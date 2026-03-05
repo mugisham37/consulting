@@ -9,16 +9,15 @@ const page = () => {
                             <div>
                                 <div data-w-id="bd1bac59-5011-f1da-1651-745a7dd38c7b"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}
-                                    className="tag">Contact us</div>
+                                    className="tag">Contact Elev8</div>
                                 <div className="spacer-medium"></div>
                                 <h1 data-w-id="bd1bac59-5011-f1da-1651-745a7dd38c7e"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                    We&apos;re here to help</h1>
+                                    Start Your Investment Journey Today</h1>
                                 <div className="spacer-medium"></div>
                                 <div data-w-id="bd1bac59-5011-f1da-1651-745a7dd38c81"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}
-                                    className="text-color-secondary">Reach out to our dedicated support team for any
-                                    assistance you may need.</div>
+                                    className="text-color-secondary">Ready to invest in Rwanda? Our team is here to guide you through every step. Schedule a consultation to discuss your project, regulatory requirements, and investment strategy.</div>
                             </div>
                             <div data-w-id="bd1bac59-5011-f1da-1651-745a7dd38c84"
                                 style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}
@@ -54,15 +53,15 @@ const page = () => {
                                             data-name="Enter your messages" placeholder="Message"
                                             className="form_input is-text-area w-input"></textarea></div><input
                                         type="submit" data-wait="Please wait..." className="button w-button"
-                                        value="Contact Us" />
+                                        value="Schedule Consultation" />
                                 </form>
                                 <div className="form_message-success w-form-done" tabIndex={-1} role="region"
                                     aria-label="Form success">
-                                    <div>Thank you! Your submission has been received!</div>
+                                    <div>Thank you! Your consultation request has been received. Our team will contact you within 24 hours to discuss your Rwanda investment project.</div>
                                 </div>
                                 <div className="form_message-error w-form-fail" tabIndex={-1} role="region"
                                     aria-label="Form failure">
-                                    <div>Oops! Something went wrong while submitting the form.</div>
+                                    <div>Oops! Something went wrong. Please try again or contact us directly at info@elev8advisory.rw</div>
                                 </div>
                             </div>
                         </div>

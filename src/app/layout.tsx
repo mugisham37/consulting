@@ -5,17 +5,17 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 
 export const metadata: Metadata = {
-  title: "Home V2 - Webflow HTML website template",
-  description: "Coverly is a modern Webflow template. Customize it to match your brand and create a unique, professional experience in minutes.",
+  title: "Elev8 Advisory & Investment Consultancy | Rwanda Investment Experts",
+  description: "Expert investment advisory for foreign investors in Rwanda. Company registration, mining licensing, regulatory compliance, and strategic guidance for Rwanda market entry.",
   openGraph: {
-    title: "Home V2 - Webflow HTML website template",
-    description: "Coverly is a modern Webflow template. Customize it to match your brand and create a unique, professional experience in minutes.",
+    title: "Elev8 Advisory & Investment Consultancy | Rwanda Investment Experts",
+    description: "Expert investment advisory for foreign investors in Rwanda. Company registration, mining licensing, regulatory compliance, and strategic guidance for Rwanda market entry.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Home V2 - Webflow HTML website template",
-    description: "Coverly is a modern Webflow template. Customize it to match your brand and create a unique, professional experience in minutes.",
+    title: "Elev8 Advisory & Investment Consultancy | Rwanda Investment Experts",
+    description: "Expert investment advisory for foreign investors in Rwanda. Company registration, mining licensing, regulatory compliance, and strategic guidance for Rwanda market entry.",
   },
   generator: "Webflow",
   icons: {

@@ -6,19 +6,16 @@ const history = () => {
                         <div className="w-layout-grid header_grid">
                             <div className="tag scroll-slide-left"
                                 style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                History</div>
+                                Our Mission</div>
                             <div id="w-node-_68406c48-925e-06e6-eb59-fa205c0f2319-029f7f71" className="history_layout">
                                 <div>
                                     <h2 className="scroll-slide-left"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        Trusted since 1995</h2>
+                                        Simplifying Rwanda Investment for Global Investors</h2>
                                     <div className="spacer-medium"></div>
                                     <div className="text-color-secondary scroll-slide-left"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        For nearly three decades, we've been committed to providing reliable insurance
-                                        solutions tailored to your needs. From our humble beginnings to serving
-                                        thousands of families and businesses, our mission remains the same: to protect
-                                        what matters most—with integrity, expertise, and a personal touch</div>
+                                        Founded to bridge the gap between international investment ambitions and Rwanda's regulatory landscape, Elev8 Advisory specializes in making complex processes simple. We believe every foreign investor deserves clear guidance, transparent processes, and local expertise to succeed in Rwanda's dynamic market.</div>
                                 </div>
                                 <div data-w-id="5c76d706-248b-014c-ffbf-2f6b0379245f" className="about_img">
                                     <div style={{transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}
@@ -34,45 +31,57 @@ const history = () => {
                                     <div className="statistic_item is-center">
                                         <div className="scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            Families protected</div>
+                                            Rwanda's Business Ranking</div>
                                         <div className="statistic_group scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            <div fs-numbercount-duration="2000" fs-numbercount-element="number"
-                                                fs-numbercount-start="0" fs-numbercount-end="23" className="text-number">23
-                                            </div>
                                             <div className="font-primary">
-                                                <div className="text-2xl text-color-50">k</div>
+                                                <div className="text-2xl text-color-50">#</div>
+                                            </div>
+                                            <div fs-numbercount-duration="2000" fs-numbercount-element="number"
+                                                fs-numbercount-start="0" fs-numbercount-end="1" className="text-number">1
                                             </div>
                                         </div>
+                                        <div className="text-sm text-color-secondary scroll-slide-left"
+                                            style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
+                                            in Africa for Ease of Doing Business</div>
                                     </div>
                                     <div className="statistic_item is-center">
                                         <div className="scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            Policy renewal rate</div>
+                                            Foreign Direct Investment Growth</div>
                                         <div className="statistic_group scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                             <div fs-numbercount-duration="2000" fs-numbercount-element="number"
-                                                fs-numbercount-start="0" fs-numbercount-end="95" className="text-number">95
+                                                fs-numbercount-start="0" fs-numbercount-end="38" className="text-number">38
                                             </div>
                                             <div className="font-primary">
                                                 <div className="text-2xl text-color-50">%</div>
                                             </div>
                                         </div>
+                                        <div className="text-sm text-color-secondary scroll-slide-left"
+                                            style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
+                                            Year-over-year increase (2023)</div>
                                     </div>
                                     <div id="w-node-_25f8261e-ef26-6d58-0252-9f2ad75dea65-029f7f71"
                                         className="statistic_item is-center">
                                         <div className="scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            Vehicles protected</div>
+                                            Mining Sector Contribution</div>
                                         <div className="statistic_group scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
+                                            <div className="font-primary">
+                                                <div className="text-2xl text-color-50">$</div>
+                                            </div>
                                             <div fs-numbercount-duration="2000" fs-numbercount-element="number"
-                                                fs-numbercount-start="0" fs-numbercount-end="50" className="text-number">50
+                                                fs-numbercount-start="0" fs-numbercount-end="500" className="text-number">500
                                             </div>
                                             <div className="font-primary">
-                                                <div className="text-2xl text-color-50">K</div>
+                                                <div className="text-2xl text-color-50">M+</div>
                                             </div>
                                         </div>
+                                        <div className="text-sm text-color-secondary scroll-slide-left"
+                                            style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
+                                            Annual economic contribution</div>
                                     </div>
                                 </div>
                             </div>

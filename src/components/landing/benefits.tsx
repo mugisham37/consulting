@@ -7,14 +7,12 @@ const Benefits = () => {
                     <div className="container-large">
                         <div id="w-node-_3a47ff06-bea8-972f-4ebd-9356cebce589-63a64deb" className="grid">
                             <div className="padding-right-grid">
-                                <div className="tag scroll-slide-left" style={{opacity: 0}}>Benefits</div>
+                                <div className="tag scroll-slide-left" style={{opacity: 0}}>What You Get</div>
                                 <div className="spacer-medium"></div>
-                                <h2 className="scroll-slide-left" style={{opacity: 0}}>What's included?</h2>
+                                <h2 className="scroll-slide-left" style={{opacity: 0}}>Comprehensive Advisory Services Included</h2>
                                 <div className="spacer-medium"></div>
                                 <div className="max-description-small">
-                                    <div className="text-color-secondary scroll-slide-left" style={{opacity: 0}}>Doctor house
-                                        calls, telehealth, and more—all included. Scan the QR to access your app
-                                        benefits!</div>
+                                    <div className="text-color-secondary scroll-slide-left" style={{opacity: 0}}>Every Elev8 engagement includes full-spectrum support designed to make your Rwanda investment journey smooth, compliant, and successful.</div>
                                 </div>
                             </div>
                             <div id="w-node-_3a47ff06-bea8-972f-4ebd-9356cebce593-63a64deb"
@@ -27,10 +25,9 @@ const Benefits = () => {
                                             fill="#0A0A0A"></path>
                                     </svg>
                                     <div>
-                                        <div className="text-xl">In-Home Doctor Visits</div>
+                                        <div className="text-xl">Complete Regulatory Documentation</div>
                                         <div className="spacer-medium"></div>
-                                        <div className="text-color-secondary">A real doctor. At your door. For urgent care,
-                                            check-ups, or follow-ups</div>
+                                        <div className="text-color-secondary">All required paperwork, applications, and submissions handled professionally. We ensure accuracy and compliance with Rwanda's regulatory standards.</div>
                                     </div>
                                 </div>
                                 <div className="list_item scroll-slide-left" style={{opacity: 0}}><svg
@@ -41,10 +38,9 @@ const Benefits = () => {
                                             fill="#0A0A0A"></path>
                                     </svg>
                                     <div>
-                                        <div className="text-xl">Free Video Consultations</div>
+                                        <div className="text-xl">Government Agency Coordination</div>
                                         <div className="spacer-medium"></div>
-                                        <div className="text-color-secondary">Free doctor video calls anytime, anywhere
-                                        </div>
+                                        <div className="text-color-secondary">Direct liaison with RDB, RMB, REMA, and relevant ministries. We schedule meetings, facilitate introductions, and guide productive discussions.</div>
                                     </div>
                                 </div>
                             </div>

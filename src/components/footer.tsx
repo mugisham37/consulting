@@ -12,88 +12,25 @@ const Footer = () => {
                                     loading="lazy"
                                     src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/685468e03fc698d37f1c3f54_logo-white.svg"
                                     alt="" className="home_logo" /></a>
-                                <div className="scroll-slide-left" style={{ opacity: 0 }}>Innovative legal strategies
-                                    paired with outstanding service. Our legal expertise and talent are tailored to
-                                    meet the evolving needs.</div>
+                                <div className="scroll-slide-left" style={{ opacity: 0 }}>Elev8 Advisory & Investment Consultancy is a Rwandan-registered firm providing expert guidance for foreign investors entering Rwanda's business and mining sectors. We simplify regulatory complexity and ensure investment success.</div>
                             </div>
                             <div className="w-layout-grid links_grid">
                                 <div>
                                     <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Pages</div>
-                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/home/home-v1"
+                                        <div className="text-xl font-secondary">Company</div>
+                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/"
                                         className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
                                         <div className="clip">
-                                            <div>Home V.1</div>
+                                            <div>Home</div>
                                             <div className="line"
                                                 style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                                             </div>
                                         </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/home/home-v2"
-                                        aria-current="page" className="link scroll-slide-left w-inline-block w--current"
+                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/about"
+                                        className="link scroll-slide-left w-inline-block"
                                         style={{ opacity: 0 }}>
                                         <div className="clip">
-                                            <div>Home V.2</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/home/home-v3"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Home V.3</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Pages</div>
-                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/service/service-v1" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Services V.1</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/service/service-v2" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Services V.2</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/service/service-v3" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Services V.3</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Pages</div>
-                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/get-a-quote"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Get a Quote</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/blog"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Blog</div>
+                                            <div>About Us</div>
                                             <div className="line"
                                                 style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                                             </div>
@@ -101,7 +38,7 @@ const Footer = () => {
                                     </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/about"
                                         className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
                                         <div className="clip">
-                                            <div>About</div>
+                                            <div>Our Team</div>
                                             <div className="line"
                                                 style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                                             </div>
@@ -110,30 +47,91 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Pages</div>
+                                        <div className="text-xl font-secondary">Services</div>
                                     </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/contact/contact-v1" className="link scroll-slide-left w-inline-block"
+                                        href="/services" className="link scroll-slide-left w-inline-block"
                                         style={{ opacity: 0 }}>
                                         <div className="clip">
-                                            <div>Contact V.1</div>
+                                            <div>All Services</div>
                                             <div className="line"
                                                 style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                                             </div>
                                         </div>
                                     </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/contact/contact-v2" className="link scroll-slide-left w-inline-block"
+                                        href="/services" className="link scroll-slide-left w-inline-block"
                                         style={{ opacity: 0 }}>
                                         <div className="clip">
-                                            <div>Contact V.2</div>
+                                            <div>Registration</div>
                                             <div className="line"
                                                 style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                                             </div>
                                         </div>
                                     </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/contact/contact-v3" className="link scroll-slide-left w-inline-block"
+                                        href="/services" className="link scroll-slide-left w-inline-block"
                                         style={{ opacity: 0 }}>
                                         <div className="clip">
-                                            <div>Contact V.3</div>
+                                            <div>Mining Licenses</div>
+                                            <div className="line"
+                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>
+                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
+                                        <div className="text-xl font-secondary">Resources</div>
+                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/services"
+                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
+                                        <div className="clip">
+                                            <div>Compliance</div>
+                                            <div className="line"
+                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                                            </div>
+                                        </div>
+                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/"
+                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
+                                        <div className="clip">
+                                            <div>Investment Guide</div>
+                                            <div className="line"
+                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                                            </div>
+                                        </div>
+                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/about"
+                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
+                                        <div className="clip">
+                                            <div>Why Elev8</div>
+                                            <div className="line"
+                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>
+                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
+                                        <div className="text-xl font-secondary">Contact</div>
+                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
+                                        href="/contact" className="link scroll-slide-left w-inline-block"
+                                        style={{ opacity: 0 }}>
+                                        <div className="clip">
+                                            <div>Contact Us</div>
+                                            <div className="line"
+                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                                            </div>
+                                        </div>
+                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
+                                        href="/contact" className="link scroll-slide-left w-inline-block"
+                                        style={{ opacity: 0 }}>
+                                        <div className="clip">
+                                            <div>Book Consultation</div>
+                                            <div className="line"
+                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                                            </div>
+                                        </div>
+                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
+                                        href="/" className="link scroll-slide-left w-inline-block"
+                                        style={{ opacity: 0 }}>
+                                        <div className="clip">
+                                            <div>Kigali, Rwanda</div>
                                             <div className="line"
                                                 style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                                             </div>
@@ -146,12 +144,12 @@ const Footer = () => {
                         <div className="line_grey-700"></div>
                         <div className="spacer-xhuge"></div>
                         <div className="footer_medium">
-                            <div className="text-sm scroll-slide-left" style={{ opacity: 0 }}>Copyright © 2025</div>
-                            <div className="link_wrap"><a href="/template/style-guide"
-                                className="text-link scroll-slide-left" style={{ opacity: 0 }}>Style Guide</a><a
-                                    href="/template/changelog" className="text-link scroll-slide-left"
-                                    style={{ opacity: 0 }}>Changelog</a><a href="/template/licensing"
-                                        className="text-link scroll-slide-left" style={{ opacity: 0 }}>Licensing</a></div>
+                            <div className="text-sm scroll-slide-left" style={{ opacity: 0 }}>Copyright © 2025 Elev8 Advisory & Investment Consultancy</div>
+                            <div className="link_wrap"><a href="/"
+                                className="text-link scroll-slide-left" style={{ opacity: 0 }}>Privacy Policy</a><a
+                                    href="/" className="text-link scroll-slide-left"
+                                    style={{ opacity: 0 }}>Terms of Service</a><a href="/"
+                                        className="text-link scroll-slide-left" style={{ opacity: 0 }}>Cookie Policy</a></div>
                         </div>
                     </div>
                     <div className="spacer-xhuge"></div>

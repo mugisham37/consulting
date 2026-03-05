@@ -9,31 +9,29 @@ const Service = () => {
                             <div className="vertical-center">
                                 <div className="tag scroll-into-view"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                    Our services</div>
+                                    Our Services</div>
                                 <div className="spacer-medium"></div>
                                 <h2 className="text-align-center scroll-into-view"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                    Our services provide</h2>
+                                    Complete Investment Advisory Solutions</h2>
                                 <div className="spacer-medium"></div>
                                 <div className="max-description-large text-align-center">
                                     <div className="text-color-secondary scroll-into-view"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        We make it easy to protect what matters most. From health and life insurance to
-                                        vehicle and property coverage, we offer smart, flexible plans designed to fit
-                                        your needs and budget.</div>
+                                        From business registration to mining licenses, we provide end-to-end support for foreign investors entering Rwanda's dynamic market. Our services ensure regulatory compliance, efficient approvals, and strategic market positioning.</div>
                                 </div>
                                 <div className="spacer-huge"></div>
                                 <div className="button-wrapper scroll-into-view"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                     <a data-wf--button--variant="base" data-w-id="240aeaf1-8b90-c9f8-b11f-bd4675861a39"
-                                        href="https://temlis.com" className="button w-inline-block">
+                                        href="/contact" className="button w-inline-block">
                                         <div className="button-content">
                                             <div className="button-text is-one"
                                                 style={{transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                                Contact Us</div>
+                                                Schedule Consultation</div>
                                             <div className="button-text is-two"
                                                 style={{transform: 'translate3d(0px, 150%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                                Contact Us</div>
+                                                Schedule Consultation</div>
                                         </div>
                                     </a></div>
                             </div>
@@ -43,7 +41,7 @@ const Service = () => {
                                     <div role="listitem" className="service_item is-vertical scroll-slide-left w-dyn-item"
                                         style={{opacity: '1', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                         <a data-w-id="1ce7039e-5b9d-3fa2-a140-8314c223b5d6"
-                                            href="/services/secure-life-coverage"
+                                            href="/contact"
                                             className="service_item-link w-inline-block">
                                             <div className="service_img is-rectangular">
                                                 <div className="img-wrapper"><img
@@ -60,12 +58,11 @@ const Service = () => {
                                                             src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d2fe35a6e0b8d804e13c_mdi_heart.svg"
                                                             loading="lazy" alt="" className="icon-1x1-medium" /></div>
                                                     <div className="spacer-xlarge"></div>
-                                                    <div className="text-xl">Secure Life coverage</div>
+                                                    <div className="text-xl">Company Registration & Investment Certificate</div>
                                                 </div>
                                                 <div className="spacer-huge"></div>
                                                 <div className="align-auto">
-                                                    <div className="text-color-secondary">Life insurance that safeguards
-                                                        your family’s future—simple, affordable, and reliable</div>
+                                                    <div className="text-color-secondary">Complete registration and certification process for your Rwandan business. We handle all documentation with RDB, secure your investment certificate, and ensure full legal compliance.</div>
                                                     <div className="spacer-xlarge"></div>
                                                     <div className="lean-more">
                                                         <div>Learn more</div>
@@ -77,7 +74,7 @@ const Service = () => {
                                     <div role="listitem" className="service_item is-vertical scroll-slide-left w-dyn-item"
                                         style={{opacity: '1', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                         <a data-w-id="1ce7039e-5b9d-3fa2-a140-8314c223b5d6"
-                                            href="/services/vital-health-assurance"
+                                            href="/contact"
                                             className="service_item-link w-inline-block">
                                             <div className="service_img is-rectangular">
                                                 <div className="img-wrapper"><img
@@ -94,12 +91,11 @@ const Service = () => {
                                                             src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d2dfa4d4e8ef3cba736f_material-symbols-light_health-cross-rounded.svg"
                                                             loading="lazy" alt="" className="icon-1x1-medium" /></div>
                                                     <div className="spacer-xlarge"></div>
-                                                    <div className="text-xl">Vital Health assurance</div>
+                                                    <div className="text-xl">Mining & Resource Licensing</div>
                                                 </div>
                                                 <div className="spacer-huge"></div>
                                                 <div className="align-auto">
-                                                    <div className="text-color-secondary">Health plans designed for your
-                                                        wellness and wallet, with transparent pricing</div>
+                                                    <div className="text-color-secondary">Step-by-step licensing guidance for mining operations through Rwanda Mines Board (RMB). Specializing in tin, lithium, coltan, and other mineral exploration and extraction projects.</div>
                                                     <div className="spacer-xlarge"></div>
                                                     <div className="lean-more">
                                                         <div>Learn more</div>
@@ -111,7 +107,7 @@ const Service = () => {
                                     <div role="listitem" className="service_item is-vertical scroll-slide-left w-dyn-item"
                                         style={{opacity: '1', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                         <a data-w-id="1ce7039e-5b9d-3fa2-a140-8314c223b5d6"
-                                            href="/services/total-home-security"
+                                            href="/contact"
                                             className="service_item-link w-inline-block">
                                             <div className="service_img is-rectangular">
                                                 <div className="img-wrapper"><img
@@ -128,12 +124,11 @@ const Service = () => {
                                                             src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d2c3aa3c3d27c8a040a1_tabler_home-filled.svg"
                                                             loading="lazy" alt="" className="icon-1x1-medium" /></div>
                                                     <div className="spacer-xlarge"></div>
-                                                    <div className="text-xl">Total Home security</div>
+                                                    <div className="text-xl">Regulatory & Compliance Liaison</div>
                                                 </div>
                                                 <div className="spacer-huge"></div>
                                                 <div className="align-auto">
-                                                    <div className="text-color-secondary">Complete home protection against
-                                                        the unexpected, from leaks to natural disasters</div>
+                                                    <div className="text-color-secondary">Direct coordination with government agencies to ensure smooth approvals for environmental, operational, and sector-specific compliance. We navigate Rwanda's regulatory landscape efficiently.</div>
                                                     <div className="spacer-xlarge"></div>
                                                     <div className="lean-more">
                                                         <div>Learn more</div>
@@ -145,7 +140,7 @@ const Service = () => {
                                     <div role="listitem" className="service_item is-vertical scroll-slide-left w-dyn-item"
                                         style={{opacity: '1', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                         <a data-w-id="1ce7039e-5b9d-3fa2-a140-8314c223b5d6"
-                                            href="/services/travel-insurance" className="service_item-link w-inline-block">
+                                            href="/contact" className="service_item-link w-inline-block">
                                             <div className="service_img is-rectangular">
                                                 <div className="img-wrapper"><img
                                                         src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d2a6b7a36e9c4af552ec_image-3.webp"
@@ -161,11 +156,11 @@ const Service = () => {
                                                             src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d2a243fa4127661f1de5_material-symbols_hiking.svg"
                                                             loading="lazy" alt="" className="icon-1x1-medium" /></div>
                                                     <div className="spacer-xlarge"></div>
-                                                    <div className="text-xl">Travel insurance</div>
+                                                    <div className="text-xl">Institutional Meeting Coordination</div>
                                                 </div>
                                                 <div className="spacer-huge"></div>
                                                 <div className="align-auto">
-                                                    <div className="text-color-secondary">Travel smart. Stay protected</div>
+                                                    <div className="text-color-secondary">Strategic meeting setup with RDB, RMB, and relevant ministries. We facilitate introductions, prepare meeting agendas, and guide productive discussions with key decision-makers.</div>
                                                     <div className="spacer-xlarge"></div>
                                                     <div className="lean-more">
                                                         <div>Learn more</div>
@@ -177,7 +172,7 @@ const Service = () => {
                                     <div role="listitem" className="service_item is-vertical scroll-slide-left w-dyn-item"
                                         style={{opacity: '1', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                         <a data-w-id="1ce7039e-5b9d-3fa2-a140-8314c223b5d6"
-                                            href="/services/commercial-protection"
+                                            href="/contact"
                                             className="service_item-link w-inline-block">
                                             <div className="service_img is-rectangular">
                                                 <div className="img-wrapper"><img
@@ -194,12 +189,11 @@ const Service = () => {
                                                             src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d27b825d5d8fd604bb45_basil_bag-solid.svg"
                                                             loading="lazy" alt="" className="icon-1x1-medium" /></div>
                                                     <div className="spacer-xlarge"></div>
-                                                    <div className="text-xl">Commercial protection</div>
+                                                    <div className="text-xl">Investment Structuring & Roadmap</div>
                                                 </div>
                                                 <div className="spacer-huge"></div>
                                                 <div className="align-auto">
-                                                    <div className="text-color-secondary">Business risks? We’ve got your
-                                                        back</div>
+                                                    <div className="text-color-secondary">Customized investment strategy with actionable roadmaps and milestone planning. We develop tailored financial structuring, project timelines, and strategic plans aligned with Rwanda's investment incentives.</div>
                                                     <div className="spacer-xlarge"></div>
                                                     <div className="lean-more">
                                                         <div>Learn more</div>
@@ -211,7 +205,7 @@ const Service = () => {
                                     <div role="listitem" className="service_item is-vertical scroll-slide-left w-dyn-item"
                                         style={{opacity: '1', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                         <a data-w-id="1ce7039e-5b9d-3fa2-a140-8314c223b5d6"
-                                            href="/services/car-insurance" className="service_item-link w-inline-block">
+                                            href="/contact" className="service_item-link w-inline-block">
                                             <div className="service_img is-rectangular">
                                                 <div className="img-wrapper"><img
                                                         src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d2566e5b1bbcc0c85521_image-5.webp"
@@ -227,12 +221,11 @@ const Service = () => {
                                                             src="https://cdn.prod.website-files.com/684f91df71b424da63a64e18/6852d24f779109e89d7896cb_mingcute_car-fill.svg"
                                                             loading="lazy" alt="" className="icon-1x1-medium" /></div>
                                                     <div className="spacer-xlarge"></div>
-                                                    <div className="text-xl">Car insurance</div>
+                                                    <div className="text-xl">Ongoing Advisory & Support</div>
                                                 </div>
                                                 <div className="spacer-huge"></div>
                                                 <div className="align-auto">
-                                                    <div className="text-color-secondary">Drive safe. We’ve got you covered
-                                                    </div>
+                                                    <div className="text-color-secondary">Continuous regulatory support beyond initial setup. We monitor policy changes, manage compliance renewals, and provide strategic advice as your Rwanda operations grow and evolve.</div>
                                                     <div className="spacer-xlarge"></div>
                                                     <div className="lean-more">
                                                         <div>Learn more</div>

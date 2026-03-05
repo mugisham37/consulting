@@ -12,19 +12,17 @@ const Statistics = () => {
                         <div className="vertical-center">
                             <div className="scroll-slide-top"
                                 style={{ opacity: 1, transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                <div className="tag">Statistic</div>
+                                <div className="tag">About Elev8</div>
                             </div>
                             <div className="spacer-medium"></div>
                             <h2 className="text-align-center scroll-slide-top"
                                 style={{ opacity: 1, transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                Proven results, trusted coverage</h2>
+                                Your Gateway to Rwanda's Investment Opportunities</h2>
                             <div className="spacer-medium"></div>
                             <div className="max-width-medium text-align-center">
                                 <div className="text-color-secondary scroll-slide-top"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                    We don't just promise reliability — we deliver it. Thousands of individuals,
-                                    families, and businesses trust us to protect what matters most. Our data tells the
-                                    story</div>
+                                    Elev8 Advisory & Investment Consultancy is a Rwandan-registered firm providing investment guidance, regulatory support, and local expertise to help foreign investors navigate Rwanda with confidence.</div>
                             </div>
                         </div>
                         <div className="spacer">
@@ -36,28 +34,28 @@ const Statistics = () => {
                             <div className="statistic_item is-center">
                                 <div className="scroll-slide-left"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                    Families protected</div>
+                                    Rwanda Business Ranking</div>
                                 <div className="statistic_group scroll-slide-left"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                    <div fs-numbercount-duration="2000" fs-numbercount-element="number"
-                                        fs-numbercount-start="0" fs-numbercount-end="23" className="text-number"
-                                        role="marquee" aria-roledescription="Number count animation from 0 to 23"
-                                        aria-description="Number count animation from 0 to 23">23</div>
                                     <div className="font-primary">
-                                        <div className="text-2xl text-color-50">k</div>
+                                        <div className="text-2xl text-color-50">#</div>
                                     </div>
+                                    <div fs-numbercount-duration="2000" fs-numbercount-element="number"
+                                        fs-numbercount-start="0" fs-numbercount-end="1" className="text-number"
+                                        role="marquee" aria-roledescription="Number count animation from 0 to 1"
+                                        aria-description="Number count animation from 0 to 1">1</div>
                                 </div>
                             </div>
                             <div className="statistic_item is-center">
                                 <div className="scroll-slide-left"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                    Policy renewal rate</div>
+                                    FDI Growth Rate</div>
                                 <div className="statistic_group scroll-slide-left"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                                     <div fs-numbercount-duration="2000" fs-numbercount-element="number"
-                                        fs-numbercount-start="0" fs-numbercount-end="95" className="text-number"
-                                        role="marquee" aria-roledescription="Number count animation from 0 to 95"
-                                        aria-description="Number count animation from 0 to 95">95</div>
+                                        fs-numbercount-start="0" fs-numbercount-end="38" className="text-number"
+                                        role="marquee" aria-roledescription="Number count animation from 0 to 38"
+                                        aria-description="Number count animation from 0 to 38">38</div>
                                     <div className="font-primary">
                                         <div className="text-2xl text-color-50">%</div>
                                     </div>
@@ -67,15 +65,18 @@ const Statistics = () => {
                                 className="statistic_item is-center">
                                 <div className="scroll-slide-left"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                    Vehicles protected</div>
+                                    Mining Sector Value</div>
                                 <div className="statistic_group scroll-slide-left"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                    <div fs-numbercount-duration="2000" fs-numbercount-element="number"
-                                        fs-numbercount-start="0" fs-numbercount-end="50" className="text-number"
-                                        role="marquee" aria-roledescription="Number count animation from 0 to 50"
-                                        aria-description="Number count animation from 0 to 50">50</div>
                                     <div className="font-primary">
-                                        <div className="text-2xl text-color-50">K</div>
+                                        <div className="text-2xl text-color-50">$</div>
+                                    </div>
+                                    <div fs-numbercount-duration="2000" fs-numbercount-element="number"
+                                        fs-numbercount-start="0" fs-numbercount-end="500" className="text-number"
+                                        role="marquee" aria-roledescription="Number count animation from 0 to 500"
+                                        aria-description="Number count animation from 0 to 500">500</div>
+                                    <div className="font-primary">
+                                        <div className="text-2xl text-color-50">M+</div>
                                     </div>
                                 </div>
                             </div>

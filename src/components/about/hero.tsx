@@ -8,18 +8,16 @@ const Hero = () => {
                         <div>
                             <div data-w-id="62a55704-3066-c4f3-c582-855402c59cb6"
                                 style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}
-                                className="tag">Coverly insurance</div>
+                                className="tag">About Elev8</div>
                             <div className="spacer-medium"></div>
                             <h1 data-w-id="62a55704-3066-c4f3-c582-855402c59cb9"
                                 style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                Your long term insurance partner, <br />every step of the way</h1>
+                                Your Trusted Partner for Rwanda <br />Investment Success</h1>
                             <div className="spacer-medium"></div>
                             <div className="max-description-medium">
                                 <div data-w-id="62a55704-3066-c4f3-c582-855402c59cbc"
                                     style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}
-                                    className="text-color-secondary">Since 1995, we have been dedicated to providing
-                                    reliable insurance solutions tailored to your needs. Trust us to protect what
-                                    matters most to you.</div>
+                                    className="text-color-secondary">Elev8 Advisory & Investment Consultancy is a Rwandan-registered firm dedicated to guiding foreign investors through the complexities of entering Rwanda's business and mining sectors. We combine local expertise with international standards to deliver transparent, efficient, and results-driven advisory services.</div>
                             </div>
                         </div>
                     </div>

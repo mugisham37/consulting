@@ -7,21 +7,20 @@ const Solutions = () => {
                     <div className="container-large">
                         <div className="w-layout-grid grid-section">
                             <div className="padding-right-grid">
-                                <div className="tag scroll-slide-left" style={{opacity: 0}}>Solutions</div>
+                                <div className="tag scroll-slide-left" style={{opacity: 0}}>Our Process</div>
                                 <div className="spacer-medium"></div>
-                                <h2 className="h3 scroll-slide-left" style={{opacity: 0}}>Experience insurance solutions
-                                    designed to fit your unique needs</h2>
+                                <h2 className="h3 scroll-slide-left" style={{opacity: 0}}>Your Investment Journey: Clear, Structured, Successful</h2>
                                 <div className="spacer-huge"></div>
                                 <div className="button-wrapper scroll-slide-left" style={{opacity: 0}}><a
                                         data-wf--button--variant="base" data-w-id="240aeaf1-8b90-c9f8-b11f-bd4675861a39"
-                                        href="https://temlis.com" className="button w-inline-block">
+                                        href="/contact" className="button w-inline-block">
                                         <div className="button-content">
                                             <div className="button-text is-one"
                                                 style={{transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                                Contact Us</div>
+                                                Schedule Consultation</div>
                                             <div className="button-text is-two"
                                                 style={{transform: 'translate3d(0px, 150%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                                Contact Us</div>
+                                                Schedule Consultation</div>
                                         </div>
                                     </a></div>
                             </div>
@@ -39,7 +38,7 @@ const Solutions = () => {
                                                 <div className="circle"
                                                     style={{opacity: 0, backgroundColor: 'rgb(191, 191, 191)'}}></div>
                                             </div>
-                                            <div className="text-xl">At-Home Care Plans</div>
+                                            <div className="text-xl">Initial Consultation & Assessment</div>
                                         </div>
                                         <div className="accordion_number" style={{color: 'rgb(183, 183, 183)'}}>
                                             <div>01</div>
@@ -51,12 +50,10 @@ const Solutions = () => {
                                             style={{opacity: 0, transform: 'translate3d(0px, -30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                             <div className="accordion_text">
                                                 <div className="spacer-small"></div>
-                                                <div className="text-color-secondary">Resolve conflicts with insurance
-                                                    providers effectively. Get support in claim negotiations, coverage
-                                                    issues, and policy interpretations</div>
-                                                <div className="spacer-small"></div><a href="https://temlis.com"
+                                                <div className="text-color-secondary">We begin with a comprehensive consultation to understand your investment goals, industry focus, and specific requirements. Our team assesses regulatory needs and develops a preliminary roadmap tailored to your project.</div>
+                                                <div className="spacer-small"></div><a href="/contact"
                                                     className="lean-more is-link w-inline-block" tabIndex={0}>
-                                                    <div>Learn more</div>
+                                                    <div>Schedule Consultation</div>
                                                     <div className="line-more_line"></div>
                                                 </a>
                                             </div>
@@ -85,7 +82,7 @@ const Solutions = () => {
                                                 <div className="circle"
                                                     style={{opacity: 0, backgroundColor: 'rgb(191, 191, 191)'}}></div>
                                             </div>
-                                            <div className="text-xl">Free Video Consultations</div>
+                                            <div className="text-xl">Documentation & Registration</div>
                                         </div>
                                         <div className="accordion_number" style={{color: 'rgb(183, 183, 183)'}}>
                                             <div>02</div>
@@ -97,10 +94,8 @@ const Solutions = () => {
                                             style={{opacity: 0, transform: 'translate3d(0px, -30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                             <div className="accordion_text">
                                                 <div className="spacer-small"></div>
-                                                <div className="text-color-secondary">Resolve conflicts with insurance
-                                                    providers effectively. Get support in claim negotiations, coverage
-                                                    issues, and policy interpretations</div>
-                                                <div className="spacer-small"></div><a href="https://temlis.com"
+                                                <div className="text-color-secondary">We handle all company registration paperwork, investment certificate applications, and required documentation. Our team coordinates with Rwanda Development Board (RDB) and ensures all submissions meet regulatory standards.</div>
+                                                <div className="spacer-small"></div><a href="/services"
                                                     className="lean-more is-link w-inline-block" tabIndex={0}>
                                                     <div>Learn more</div>
                                                     <div className="line-more_line"></div>
@@ -131,7 +126,7 @@ const Solutions = () => {
                                                 <div className="circle"
                                                     style={{opacity: 0, backgroundColor: 'rgb(191, 191, 191)'}}></div>
                                             </div>
-                                            <div className="text-xl">Get Started with Your Insurance Journey Today</div>
+                                            <div className="text-xl">Licensing & Compliance Approval</div>
                                         </div>
                                         <div className="accordion_number" style={{color: 'rgb(183, 183, 183)'}}>
                                             <div>03</div>
@@ -143,12 +138,10 @@ const Solutions = () => {
                                             style={{opacity: 0, transform: 'translate3d(0px, -30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                             <div className="accordion_text">
                                                 <div className="spacer-small"></div>
-                                                <div className="text-color-secondary">Resolve conflicts with insurance
-                                                    providers effectively. Get support in claim negotiations, coverage
-                                                    issues, and policy interpretations</div>
-                                                <div className="spacer-small"></div><a href="https://temlis.com"
+                                                <div className="text-color-secondary">For mining and specialized sectors, we guide you through licensing processes with RMB and other agencies. We manage environmental compliance (REMA), operational permits, and all regulatory approvals required for your business operations.</div>
+                                                <div className="spacer-small"></div><a href="/services"
                                                     className="lean-more is-link w-inline-block" tabIndex={0}>
-                                                    <div>Learn more</div>
+                                                    <div>View Services</div>
                                                     <div className="line-more_line"></div>
                                                 </a>
                                             </div>

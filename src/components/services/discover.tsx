@@ -10,30 +10,29 @@ const Discover = () => {
                                 className="vertical-center-left">
                                 <div className="tag scroll-slide-left"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                    discover</div>
+                                    Why Elev8</div>
                                 <div className="spacer-medium"></div>
                                 <h2 className="scroll-slide-left"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                    Discover our benefits</h2>
+                                    The Elev8 Advantage</h2>
                                 <div className="spacer-medium"></div>
                                 <div className="max-content is-41rem">
                                     <div className="text-color-secondary scroll-slide-left"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        SecureLife Coverage offers you peace of mind with tax-free payouts. Enjoy the
-                                        flexibility of payment options tailored to your needs.</div>
+                                        Elev8 Advisory combines local expertise, government relationships, and international standards to deliver transparent, efficient, and results-driven investment advisory services in Rwanda.</div>
                                 </div>
                                 <div className="spacer-huge"></div>
                                 <div className="button-wrapper scroll-slide-left"
                                     style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
                                     <a data-wf--button--variant="base" data-w-id="240aeaf1-8b90-c9f8-b11f-bd4675861a39"
-                                        href="https://temlis.com" className="button w-inline-block">
+                                        href="/contact" className="button w-inline-block">
                                         <div className="button-content">
                                             <div className="button-text is-one"
                                                 style={{transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                                Contact Us</div>
+                                                Schedule Consultation</div>
                                             <div className="button-text is-two"
                                                 style={{transform: 'translate3d(0px, 150%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                                Contact Us</div>
+                                                Schedule Consultation</div>
                                         </div>
                                     </a></div>
                             </div>
@@ -49,7 +48,7 @@ const Discover = () => {
                                         <div className="spacer-xlarge"></div>
                                         <div className="text-xl scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            Speed You Can Rely On</div>
+                                            Efficient Processing & Fast-Track Approvals</div>
                                     </div>
                                     <div className="spacer">
                                         <div style={{height:'5rem'}} className="spacer-desktop"></div>
@@ -58,7 +57,7 @@ const Discover = () => {
                                     </div>
                                     <div className="text-color-secondary scroll-slide-left"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        From instant quotes to 48-hour claims processing, we save you time (and stress).
+                                        Our established relationships with RDB, RMB, and regulatory agencies enable faster processing times. We know the systems, the people, and the procedures to expedite your approvals.
                                     </div>
                                 </div>
                                 <div className="card no-radius bg-primary">
@@ -72,7 +71,7 @@ const Discover = () => {
                                         <div className="spacer-xlarge"></div>
                                         <div className="text-xl scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            Personalized Coverage</div>
+                                            Tailored Investment Strategies</div>
                                     </div>
                                     <div className="spacer">
                                         <div style={{height:'5rem'}} className="spacer-desktop"></div>
@@ -81,7 +80,7 @@ const Discover = () => {
                                     </div>
                                     <div className="text-color-secondary scroll-slide-left"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        No two policies are alike we tailor plans to fit your budget and needs.</div>
+                                        No two investors are alike. We create customized regulatory strategies, compliance roadmaps, and investment structures specific to your industry, goals, and risk profile.</div>
                                 </div>
                                 <div className="card no-radius bg-primary">
                                     <div>
@@ -94,7 +93,7 @@ const Discover = () => {
                                         <div className="spacer-xlarge"></div>
                                         <div className="text-xl scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            Always in Your Corner</div>
+                                            Direct Government Access</div>
                                     </div>
                                     <div className="spacer">
                                         <div style={{height:'5rem'}} className="spacer-desktop"></div>
@@ -103,8 +102,7 @@ const Discover = () => {
                                     </div>
                                     <div className="text-color-secondary scroll-slide-left"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        24/7 U.S.-based support, whether you're filing a claim at 3 AM or just have a
-                                        question.</div>
+                                        Benefit from our direct coordination channels with Rwanda Development Board, Rwanda Mines Board, REMA, and key ministries. We facilitate meetings and ensure your voice is heard.</div>
                                 </div>
                                 <div className="card no-radius bg-primary">
                                     <div>
@@ -117,7 +115,7 @@ const Discover = () => {
                                         <div className="spacer-xlarge"></div>
                                         <div className="text-xl scroll-slide-left"
                                             style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            24/7 Customer Support</div>
+                                            Local Expertise, International Standards</div>
                                     </div>
                                     <div className="spacer">
                                         <div style={{height:'5rem'}} className="spacer-desktop"></div>
@@ -126,7 +124,7 @@ const Discover = () => {
                                     </div>
                                     <div className="text-color-secondary scroll-slide-left"
                                         style={{opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                        Our dedicated team is here to assist you anytime. for your peace of mind.</div>
+                                        Rwandan-registered firm with deep local knowledge and international business practices. We bridge the gap between foreign investment expectations and local regulatory requirements.</div>
                                 </div>
                             </div>
                         </div>

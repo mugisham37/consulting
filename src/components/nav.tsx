@@ -14,8 +14,8 @@ const nav = () => {
                             </svg>
                         </nav>
                     </div><a href="/" className="home_logo-link w-nav-brand" aria-label="home"><img loading="lazy"
-                            src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f939dc92027ed2eddbab6_Union.svg"
-                            alt="" className="home_logo" /></a>
+                            src="/elev8-logo-dark.svg"
+                            alt="Elev8 Logo" className="home_logo" /></a>
                     <div className="nav_button"><a data-w-id="4962a1f1-6bac-be07-dc3d-5b3868f37bdd"
                             href="/contact" className="button is-small w-inline-block">
                             <div className="button-content">

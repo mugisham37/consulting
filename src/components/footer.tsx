@@ -10,8 +10,8 @@ const Footer = () => {
                             <div className="footer_content"><a href="/"
                                 className="home_logo-link scroll-slide-left w-nav-brand" style={{ opacity: 0 }}><img
                                     loading="lazy"
-                                    src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/685468e03fc698d37f1c3f54_logo-white.svg"
-                                    alt="" className="home_logo" /></a>
+                                    src="/Elev8-logo-light.svg"
+                                    alt="Elev8 Logo" className="home_logo" /></a>
                                 <div className="scroll-slide-left" style={{ opacity: 0 }}>Elev8 Advisory & Investment Consultancy is a Rwandan-registered firm providing expert guidance for foreign investors entering Rwanda's business and mining sectors. We simplify regulatory complexity and ensure investment success.</div>
                             </div>
                             <div className="w-layout-grid links_grid">
@@ -154,8 +154,8 @@ const Footer = () => {
                     </div>
                     <div className="spacer-xhuge"></div>
                     <div className="footer_logo"><img
-                        src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6854707a544216a06e4fc3fa_foooter-svg.svg"
-                        loading="lazy" alt="" className="img" /></div>
+                        src="/Elev8-logo-light.svg"
+                        loading="lazy" alt="Elev8 Logo" className="img" /></div>
                 </div>
             </div>
         </section>

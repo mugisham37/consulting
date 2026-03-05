@@ -6,7 +6,7 @@ import Testimonial from '@/src/components/landing/testimonial'
 import Trust from '@/src/components/landing/trust'
 import Solutions from '@/src/components/landing/solutions'
 import Benefits from '@/src/components/landing/benefits'
-import Cta from '@/src/components/landing/cta'
+import Cta from '@/src/components/cta'
 
 const page = () => {
   return (

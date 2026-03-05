@@ -1,6 +1,6 @@
 import React from 'react'
 
-const faq = () => {
+const Faq = () => {
   return (
     <section className="section_faq">
                 <div className="padding-global padding-section-medium">
@@ -157,4 +157,4 @@ const faq = () => {
   )
 }
 
-export default faq
+export default Faq

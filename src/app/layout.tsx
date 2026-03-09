@@ -42,8 +42,8 @@ export default function RootLayout({
           MozOsxFontSmoothing: 'grayscale',
         }}
       >
+        <Nav />
         <div className="overflow-clip">
-          <Nav />
           <div>
             {children}
             <Footer />

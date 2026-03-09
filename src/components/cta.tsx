@@ -37,10 +37,12 @@ const Cta = ({
             <div className="p-6 md:p-8 rounded bg-maroon">
               <div>
                 <img
-                  src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6853430377e44437f9168295_Union.svg"
+                  src="/Elev8-logo-light.svg"
                   loading="lazy" 
                   alt="Contact icon"
-                  className="w-auto h-auto"
+                  width={91}
+              height={32}
+              className="w-[4.5rem] md:w-[5.68rem]"
                 />
                 <div className="pt-4 md:pt-6" />
                 <h2 className="font-normal text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] leading-[1.11] tracking-[-0.03em] font-['Lora',sans-serif] mt-0 mb-0">

@@ -60,7 +60,7 @@ const Nav = () => {
   const closeMobileMenu = () => setMobileMenuOpen(false);
 
   return (
-    <div className="relative z-50 bg-white border-b border-gray-100">
+    <div className="sticky top-0 z-50 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-5 py-4">
         <div className="flex items-center justify-between">
           {/* Logo on the left */}

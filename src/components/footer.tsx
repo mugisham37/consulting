@@ -29,8 +29,8 @@ const Footer = () => {
               transition={{ duration: 0.6 }}
             >
               <Image
-                src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/685468e03fc698d37f1c3f54_logo-white.svg"
-                alt="Logo"
+                src="/Elev8-logo-light.svg"
+                alt="Elev8 Logo"
                 width={91}
                 height={32}
                 className="w-[4.5rem] md:w-[5.68rem]"
@@ -83,7 +83,7 @@ const Footer = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <Image
-            src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6854707a544216a06e4fc3fa_foooter-svg.svg"
+            src="/Elev8-logo-light.svg"
             alt="Footer decoration"
             width={1000}
             height={156}

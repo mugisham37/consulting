@@ -18,11 +18,6 @@ const Cta = ({
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
-  // Responsive spacer component
-  const ResponsiveSpacer = () => (
-    <div className="h-58 lg:h-58 md:h-12 sm:h-8" />
-  );
-
   return (
     <section 
       className="relative text-white bg-cover bg-center bg-no-repeat"
@@ -57,12 +52,12 @@ const Cta = ({
                 </div>
               </div>
               
-              <ResponsiveSpacer />
+              <div className="h-58 lg:h-58 md:h-12 sm:h-8" />
               
               <div className="grid gap-4 w-full lg:items-stretch">
                 <motion.a
                   href={buttonHref}
-                  className="relative inline-block max-w-full overflow-hidden group min-h-[48px] flex items-center justify-center bg-white text-maroon px-6 py-3 rounded font-medium"
+                  className="relative inline-block max-w-full overflow-hidden group min-h-[48px] flex items-center justify-center bg-[#ff6301] text-white px-6 py-3 rounded font-medium"
                   whileHover={{ scale: 0.98 }}
                   transition={{ duration: 0.2 }}
                 >

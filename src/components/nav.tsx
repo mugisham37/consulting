@@ -1,6 +1,7 @@
 'use client';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 // Reusable NavLink component
@@ -63,19 +64,19 @@ const Nav = () => {
       <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-5 py-4">
         <div className="flex items-center justify-between">
           {/* Logo on the left */}
-          <a 
+          <Link 
             href="/" 
             className="flex items-center z-50"
             aria-label="home"
           >
             <Image
-              src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f939dc92027ed2eddbab6_Union.svg"
-              alt="Logo"
-              width={40}
-              height={40}
-              className="w-auto h-auto"
+              src="/elev8-logo-dark.svg"
+              alt="Elev8 Logo"
+              width={91}
+              height={32}
+              className="w-[4.5rem] md:w-[5.68rem]"
             />
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">

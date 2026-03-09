@@ -1,165 +1,98 @@
+'use client'
+
 import React from 'react'
+import { motion } from 'framer-motion'
+import { useInView } from 'framer-motion'
+import { useRef } from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
-    return (
-        <section className="section_footer">
-            <div className="padding-section-small">
-                <div className="padding-global">
-                    <div>
-                        <div className="w-layout-grid footer_grid">
-                            <div className="footer_content"><a href="/"
-                                className="home_logo-link scroll-slide-left w-nav-brand" style={{ opacity: 0 }}><img
-                                    loading="lazy"
-                                    src="/Elev8-logo-light.svg"
-                                    alt="Elev8 Logo" className="home_logo" /></a>
-                                <div className="scroll-slide-left" style={{ opacity: 0 }}>Elev8 Advisory & Investment Consultancy is a Rwandan-registered firm providing expert guidance for foreign investors entering Rwanda's business and mining sectors. We simplify regulatory complexity and ensure investment success.</div>
-                            </div>
-                            <div className="w-layout-grid links_grid">
-                                <div>
-                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Company</div>
-                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Home</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/about"
-                                        className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>About Us</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/about"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Our Team</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Services</div>
-                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/services" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>All Services</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/services" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Registration</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/services" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Mining Licenses</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Resources</div>
-                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/services"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Compliance</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Investment Guide</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1" href="/about"
-                                        className="link scroll-slide-left w-inline-block" style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Why Elev8</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link scroll-slide-left" style={{ opacity: 0 }}>
-                                        <div className="text-xl font-secondary">Contact</div>
-                                    </div><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/contact" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Contact Us</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/contact" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Book Consultation</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="51a2a5b3-b8e1-e267-e051-8d54e57be1b1"
-                                        href="/" className="link scroll-slide-left w-inline-block"
-                                        style={{ opacity: 0 }}>
-                                        <div className="clip">
-                                            <div>Kigali, Rwanda</div>
-                                            <div className="line"
-                                                style={{ transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="spacer-xhuge"></div>
-                        <div className="line_grey-700"></div>
-                        <div className="spacer-xhuge"></div>
-                        <div className="footer_medium">
-                            <div className="text-sm scroll-slide-left" style={{ opacity: 0 }}>Copyright © 2025 Elev8 Advisory & Investment Consultancy</div>
-                            <div className="link_wrap"><a href="/"
-                                className="text-link scroll-slide-left" style={{ opacity: 0 }}>Privacy Policy</a><a
-                                    href="/" className="text-link scroll-slide-left"
-                                    style={{ opacity: 0 }}>Terms of Service</a><a href="/"
-                                        className="text-link scroll-slide-left" style={{ opacity: 0 }}>Cookie Policy</a></div>
-                        </div>
-                    </div>
-                    <div className="spacer-xhuge"></div>
-                    <div className="footer_logo"><img
-                        src="/Elev8-logo-light.svg"
-                        loading="lazy" alt="Elev8 Logo" className="img" /></div>
-                </div>
-            </div>
-        </section>
-    )
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true, margin: "-100px" })
+
+  return (
+    <section 
+      ref={ref}
+      className="bg-[#0a0a0a] text-[#949494]"
+      style={{ fontFamily: 'Inter, sans-serif' }}
+    >
+      <div className="py-12 md:py-[3.25rem] px-6 md:px-10">
+        <div>
+          {/* Main footer content */}
+          <div className="flex flex-col gap-6 md:gap-8">
+            {/* Footer content - logo and description */}
+            <motion.a 
+              href="/"
+              className="relative z-20 flex justify-center md:justify-start items-center"
+              initial={{ opacity: 0, x: -20 }}
+              animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+              transition={{ duration: 0.6 }}
+            >
+              <Image
+                src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/685468e03fc698d37f1c3f54_logo-white.svg"
+                alt="Logo"
+                width={91}
+                height={32}
+                className="w-[4.5rem] md:w-[5.68rem]"
+              />
+            </motion.a>
+            <motion.div 
+              className="text-[#949494] text-sm leading-[1.4] max-w-2xl text-center md:text-left"
+              initial={{ opacity: 0, x: -20 }}
+              animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+            >
+              Elev8 Advisory is a boutique investment facilitation and market-entry advisory firm. We help international investors successfully establish and operate businesses in Rwanda through strategic guidance, institutional navigation, and trusted professional partnerships.
+            </motion.div>
+          </div>
+
+          {/* Spacer */}
+          <div className="pt-8 md:pt-12 lg:pt-[3.25rem]"></div>
+
+          {/* Divider line */}
+          <motion.div 
+            className="bg-[#1e1e1e] w-full h-px"
+            initial={{ opacity: 0, scaleX: 0 }}
+            animate={isInView ? { opacity: 1, scaleX: 1 } : { opacity: 0, scaleX: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+          ></motion.div>
+
+          {/* Spacer */}
+          <div className="pt-8 md:pt-12 lg:pt-[3.25rem]"></div>
+
+          {/* Footer bottom */}
+          <motion.div 
+            className="text-sm text-[#949494] text-center md:text-left"
+            initial={{ opacity: 0, x: -20 }}
+            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+          >
+            Copyright © 2025
+          </motion.div>
+        </div>
+
+        {/* Spacer */}
+        <div className="pt-8 md:pt-12 lg:pt-[3.25rem]"></div>
+
+        {/* Footer logo */}
+        <motion.div 
+          className="w-full"
+          style={{ aspectRatio: '100 / 15.6' }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+        >
+          <Image
+            src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6854707a544216a06e4fc3fa_foooter-svg.svg"
+            alt="Footer decoration"
+            width={1000}
+            height={156}
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+      </div>
+    </section>
+  )
 }
 
 export default Footer

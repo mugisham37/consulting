@@ -1,162 +1,169 @@
-const nav = () => {
-  return (
-    <div data-animation="default" data-collapse="none" data-duration="500" data-easing="ease-out"
-            data-easing2="ease-in-back" data-no-scroll="1" role="banner" className="nav w-nav">
-            <div className="nav_bar">
-                <div className="nav_container">
-                    <div data-w-id="66efc696-f4c9-fa93-8fdc-072e7748fead" className="menu">
-                        <nav role="navigation" className="menu_wrap w-nav-menu">
-                            <div>Menu</div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24"
-                                fill="none" className="icon-1x1-medium">
-                                <path
-                                    d="M9.41078 7.3H9.40078M14.6008 7.3H14.5908M9.31078 12H9.30078M14.6008 12H14.5908M9.41078 16.7H9.40078M14.6008 16.7H14.5908"
-                                    stroke="black" strokeWidth="2.6" strokeLinecap="round"></path>
-                            </svg>
-                        </nav>
-                    </div><a href="/" className="home_logo-link w-nav-brand" aria-label="home"><img loading="lazy"
-                            src="/elev8-logo-dark.svg"
-                            alt="Elev8 Logo" className="home_logo" /></a>
-                    <div className="nav_button"><a data-w-id="4962a1f1-6bac-be07-dc3d-5b3868f37bdd"
-                            href="/contact" className="button is-small w-inline-block">
-                            <div className="button-content">
-                                <div className="button-text is-one">Schedule Consultation</div>
-                                <div className="button-text is-two">Schedule Consultation</div>
-                            </div>
-                        </a></div>
-                    <div className="menu_content"
-                        style={{transform: 'translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d', opacity: 0}}>
-                        <div className="nav_wrap">
-                            <div className="w-layout-grid nav_content-grid">
-                                <div>
-                                    <div className="link no-link-nav">
-                                        <div className="text-xl font-secondary">Company</div>
-                                    </div><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/"
-                                        aria-current="page" className="nav_link w-inline-block w--current">
-                                        <div className="clip">
-                                            <div>Home</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/about"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>About Us</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/services"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Services</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link-nav">
-                                        <div className="text-xl font-secondary">Our Services</div>
-                                    </div><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/services"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Company Registration</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/services"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Mining Licensing</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/services"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Compliance Support</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link-nav">
-                                        <div className="text-xl font-secondary">Why Elev8</div>
-                                    </div><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/about"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Our Team</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/about"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Our Expertise</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/about"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Success Stories</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div>
-                                    <div className="link no-link-nav">
-                                        <div className="text-xl font-secondary">Get Started</div>
-                                    </div><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/contact"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Contact Us</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/contact"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Book Consultation</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a><a data-w-id="f774a3bf-129e-7c80-463a-843c4557cf23" href="/"
-                                        className="nav_link w-inline-block">
-                                        <div className="clip">
-                                            <div>Investment Guide</div>
-                                            <div className="line is-black"
-                                                style={{transform: 'translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d'}}>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="nav_image hide-tablet"><img
-                                    src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6854f138a0a296749234b1b4_nav-img.webp"
-                                    loading="lazy" sizes="(max-width: 991px) 100vw, 848px"
-                                    srcSet="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6854f138a0a296749234b1b4_nav-img-p-500.webp 500w, https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6854f138a0a296749234b1b4_nav-img-p-800.webp 800w, https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6854f138a0a296749234b1b4_nav-img.webp 848w"
-                                    alt="" className="img" /></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="nav_overlay" style={{pointerEvents: 'auto', opacity: 0, display: 'none'}}></div>
-            <div className="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
-        </div>
-  )
-}
+'use client';
+import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
+import { useState } from 'react';
 
-export default nav
+// Reusable NavLink component
+const NavLink = ({ href, children, onClick }: { href: string; children: string; onClick?: () => void }) => (
+  <a 
+    href={href}
+    onClick={onClick}
+    className="
+      relative text-black no-underline text-sm font-medium
+      transition-colors duration-200 hover:text-gray-600
+    "
+    style={{ fontFamily: 'Inter, sans-serif' }}
+  >
+    {children}
+  </a>
+);
+
+// Animated Button component
+const AnimatedButton = ({ onClick }: { onClick?: () => void }) => (
+  <motion.a
+    href="/contact"
+    onClick={onClick}
+    className="
+      relative inline-block bg-maroon text-white rounded-lg px-6 py-2.5
+      text-sm font-medium no-underline overflow-hidden min-h-[44px] flex items-center
+    "
+    whileHover={{ scale: 0.97 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    <div className="relative overflow-hidden">
+      <motion.div
+        className="relative"
+        initial={{ y: 0 }}
+        whileHover={{ y: -24 }}
+        transition={{ duration: 0.2 }}
+      >
+        <div className="text-white">Schedule Consultation</div>
+        <div className="absolute top-6 left-0 text-white whitespace-nowrap">Schedule Consultation</div>
+      </motion.div>
+    </div>
+  </motion.a>
+);
+
+const Nav = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const navigationLinks = [
+    { href: "/#about", text: "About" },
+    { href: "/#rwanda", text: "Rwanda" },
+    { href: "/#process", text: "Process" },
+    { href: "/#partners", text: "Partners" },
+    { href: "/#founder", text: "Founder" },
+    { href: "/contact", text: "Contact" },
+  ];
+
+  const closeMobileMenu = () => setMobileMenuOpen(false);
+
+  return (
+    <div className="relative z-50 bg-white border-b border-gray-100">
+      <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-5 py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo on the left */}
+          <a 
+            href="/" 
+            className="flex items-center z-50"
+            aria-label="home"
+          >
+            <Image
+              src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f939dc92027ed2eddbab6_Union.svg"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="w-auto h-auto"
+            />
+          </a>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center gap-8">
+            {navigationLinks.map((link, index) => (
+              <NavLink key={index} href={link.href}>
+                {link.text}
+              </NavLink>
+            ))}
+            <AnimatedButton />
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="lg:hidden z-50 p-2 min-w-[44px] min-h-[44px] flex items-center justify-center"
+            aria-label="Toggle menu"
+            aria-expanded={mobileMenuOpen}
+          >
+            <div className="w-6 h-5 flex flex-col justify-between">
+              <motion.span
+                animate={mobileMenuOpen ? { rotate: 45, y: 8 } : { rotate: 0, y: 0 }}
+                className="w-full h-0.5 bg-black block transition-all"
+              />
+              <motion.span
+                animate={mobileMenuOpen ? { opacity: 0 } : { opacity: 1 }}
+                className="w-full h-0.5 bg-black block transition-all"
+              />
+              <motion.span
+                animate={mobileMenuOpen ? { rotate: -45, y: -8 } : { rotate: 0, y: 0 }}
+                className="w-full h-0.5 bg-black block transition-all"
+              />
+            </div>
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Menu Overlay */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+            onClick={closeMobileMenu}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.nav
+            initial={{ x: '100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '100%' }}
+            transition={{ type: 'tween', duration: 0.3 }}
+            className="fixed top-0 right-0 bottom-0 w-[80%] max-w-sm bg-white z-40 lg:hidden shadow-2xl"
+          >
+            <div className="flex flex-col h-full pt-20 px-6">
+              <div className="flex flex-col gap-6">
+                {navigationLinks.map((link, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    <a
+                      href={link.href}
+                      onClick={closeMobileMenu}
+                      className="text-black no-underline text-lg font-medium block py-2 min-h-[44px] flex items-center"
+                    >
+                      {link.text}
+                    </a>
+                  </motion.div>
+                ))}
+              </div>
+              <div className="mt-8">
+                <AnimatedButton onClick={closeMobileMenu} />
+              </div>
+            </div>
+          </motion.nav>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+};
+
+export default Nav;

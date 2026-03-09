@@ -1,68 +1,166 @@
-import React from 'react'
+'use client';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import { useEffect } from 'react';
+
+// Font loading function
+const loadFonts = () => {
+    if (typeof window !== 'undefined') {
+        const link1 = document.createElement('link');
+        link1.rel = 'preconnect';
+        link1.href = 'https://fonts.googleapis.com';
+        document.head.appendChild(link1);
+
+        const link2 = document.createElement('link');
+        link2.rel = 'preconnect';
+        link2.href = 'https://fonts.gstatic.com';
+        link2.crossOrigin = 'anonymous';
+        document.head.appendChild(link2);
+
+        const link3 = document.createElement('link');
+        link3.rel = 'stylesheet';
+        link3.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:wght@300;400;500;600;700&display=swap';
+        document.head.appendChild(link3);
+    }
+};
+
+// Animation variants for consistent scroll animations
+const fadeInUp = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 }
+};
+
+const staggerContainer = {
+    hidden: {},
+    visible: {
+        transition: {
+            staggerChildren: 0.1,
+            delayChildren: 0.1
+        }
+    }
+};
 
 const Hero = () => {
+    useEffect(() => {
+        loadFonts();
+    }, []);
+
     return (
-        <section className="section_hero">
-            <div className="padding-global padding-section-small">
-                <div className="container-large">
-                    <div className="w-layout-grid grid-3gap is-hero">
-                        <div className="grid_content-hero">
+        <section className="flex justify-center items-center">
+            <div className="px-6 md:px-10 pt-16 md:pt-20 lg:pt-24 pb-12 md:pb-16">
+                <div className="w-full max-w-[73.5rem] mx-auto">
+                    <motion.div 
+                        className="grid gap-8 md:gap-10 lg:gap-12 grid-cols-1 lg:grid-cols-[0.49fr_1fr]"
+                        variants={staggerContainer}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.1 }}
+                        transition={{ duration: 0.6, ease: "easeOut" }}
+                    >
+                        <div className="flex flex-col gap-8 md:gap-10 lg:gap-12">
                             <div>
-                                <div data-w-id="2bfd2230-9d67-100a-b43e-e38807672149" style={{ opacity: 1 }}
-                                    className="tag">Elev8 Advisory</div>
-                                <div className="spacer-medium"></div>
-                                <h1 data-w-id="2bfd2230-9d67-100a-b43e-e3880767214c" style={{ opacity: 1 }}>
-                                    Simplifying Investment in Rwanda: Your Trusted Advisory Partner</h1>
+                                <motion.div 
+                                    variants={fadeInUp}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
+                                    className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-800 mb-4"
+                                >
+                                    Elev8 Advisory
+                                </motion.div>
+                                <motion.h1 
+                                    variants={fadeInUp}
+                                    transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+                                    className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[1.14] font-normal tracking-[-0.05em] text-neutral-900 font-poppins m-0"
+                                >
+                                    Investment Facilitation &amp; Market Entry Advisory
+                                </motion.h1>
                             </div>
                             <div>
-                                <div data-w-id="2bfd2230-9d67-100a-b43e-e3880767214f" style={{ opacity: 1 }}
-                                    className="text-color-secondary">Step-by-step guidance for foreign investors entering Rwanda's business and mining sectors. Navigate regulatory requirements with confidence and local expertise.</div>
-                                <div className="spacer-xxlarge"></div>
-                                <div data-w-id="2bfd2230-9d67-100a-b43e-e38807672152" style={{ opacity: 1 }}
-                                    className="button-wrapper"><a data-wf--button--variant="base"
-                                        data-w-id="240aeaf1-8b90-c9f8-b11f-bd4675861a39" href="/contact"
-                                        className="button w-inline-block">
-                                        <div className="button-content">
-                                            <div className="button-text is-one"
-                                                style={{ transform: "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d" }}>
-                                                Schedule Consultation</div>
-                                            <div className="button-text is-two"
-                                                style={{ transform: "translate3d(0px, 150%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d" }}>
-                                                Schedule Consultation</div>
-                                        </div>
-                                    </a></div>
+                                <motion.div 
+                                    variants={fadeInUp}
+                                    transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                                    className="text-neutral-800 text-sm md:text-base leading-[1.4] mb-6 md:mb-7"
+                                >
+                                    Helping international investors establish and operationalize businesses in Rwanda through strategic guidance, institutional navigation, and access to trusted professional partners.
+                                </motion.div>
+                                <motion.div 
+                                    variants={fadeInUp}
+                                    transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
+                                    className="flex gap-3 md:gap-4 flex-col sm:flex-row"
+                                >
+                                    <a
+                                        href="/contact"
+                                        className="group relative inline-flex items-center justify-center bg-maroon hover:bg-maroon-hover text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-medium transition-all duration-300 hover:scale-[0.97] overflow-hidden min-h-[48px] text-center text-sm md:text-base"
+                                    >
+                                        <span className="relative z-10 block transition-transform duration-300 ease-out group-hover:-translate-y-full">
+                                            Schedule a Consultation
+                                        </span>
+                                        <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 ease-out translate-y-full group-hover:translate-y-0">
+                                            Schedule a Consultation
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="/services"
+                                        className="group relative inline-flex items-center justify-center bg-white border-2 border-neutral-900 text-neutral-900 px-6 md:px-8 py-3 md:py-4 rounded-lg font-medium transition-all duration-300 hover:bg-neutral-900 hover:text-white overflow-hidden min-h-[48px] text-center text-sm md:text-base"
+                                    >
+                                        Explore Our Services
+                                    </a>
+                                </motion.div>
                             </div>
                         </div>
-                        <div className="w-layout-grid grid_visual">
-                            <div id="w-node-_34f3b73a-0344-b784-7011-8f6c83593db2-63a64deb"
-                                data-w-id="34f3b73a-0344-b784-7011-8f6c83593db2" style={{ opacity: 1 }}
-                                className="grid_visual-img">
-                                <div className="img-wrapper"><img
-                                    src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f9eb0d0b3b34f086009cc_hero_igm.webp"
-                                    loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px"
-                                    srcSet="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f9eb0d0b3b34f086009cc_hero_igm-p-500.webp 500w, https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f9eb0d0b3b34f086009cc_hero_igm-p-800.webp 800w, https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f9eb0d0b3b34f086009cc_hero_igm-p-1080.webp 1080w, https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f9eb0d0b3b34f086009cc_hero_igm-p-1600.webp 1600w, https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f9eb0d0b3b34f086009cc_hero_igm.webp 1920w"
-                                    alt="" className="img" /></div>
-                            </div>
-                            <div data-w-id="61c46ed1-5281-7313-64e5-57d68d6e57dc"
-                                style={{ opacity: 1, transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d" }}
-                                className="grid_visual-img hide-mobile-portrait">
-                                <div className="img-wrapper"><img
-                                    src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/68577391bda1c16e19dc0051_ed.png"
-                                    loading="lazy" sizes="(max-width: 622px) 100vw, 622px"
-                                    srcSet="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/68577391bda1c16e19dc0051_ed-p-500.png 500w, https://cdn.prod.website-files.com/684f91df71b424da63a64df2/68577391bda1c16e19dc0051_ed.png 622w"
-                                    alt="" className="img" /></div>
-                            </div>
-                            <div data-w-id="f6fe0941-1e34-69d3-b4a1-e0dd01b76890" style={{ opacity: 1 }}
-                                className="bg-secondary">
-                                <div className="wrap-padding-large"><img
-                                    src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6852e22c702090d266424c1a_quote.svg"
-                                    loading="lazy" alt="" className="icon-1x1-medium" />
-                                    <div className="spacer-medium"></div>
-                                    <div className="font-primary text-color-white">"Elev8 Advisory made our lithium exploration project in Rwanda seamless. From licensing to RMB coordination, Sandra's team handled everything professionally. We received our exploration permit in record time."</div>
+                        <div className="grid gap-3 auto-rows-fr grid-cols-2 md:grid-cols-[1.5fr_1fr]">
+                            <motion.div 
+                                variants={fadeInUp}
+                                transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
+                                className="relative w-full min-h-[200px] sm:min-h-[250px] md:min-h-[16rem] lg:min-h-[20rem] row-span-2 md:row-span-2"
+                            >
+                                <div className="absolute inset-0 rounded-lg overflow-hidden">
+                                    <Image
+                                        src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/684f9eb0d0b3b34f086009cc_hero_igm.webp"
+                                        alt="Insurance hero image"
+                                        fill
+                                        className="object-cover"
+                                        sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
+                                        priority
+                                    />
                                 </div>
-                            </div>
+                            </motion.div>
+                            
+                            <motion.div 
+                                variants={fadeInUp}
+                                transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
+                                className="relative w-full min-h-[100px] sm:min-h-[120px] md:min-h-[8rem] lg:min-h-[10rem] hidden md:block"
+                            >
+                                <div className="absolute inset-0 rounded-lg overflow-hidden">
+                                    <Image
+                                        src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/68577391bda1c16e19dc0051_ed.png"
+                                        alt="Insurance secondary image"
+                                        fill
+                                        className="object-cover"
+                                        sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 20vw"
+                                    />
+                                </div>
+                            </motion.div>
+                            
+                            <motion.div 
+                                variants={fadeInUp}
+                                transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
+                                className="bg-[#ff6301] rounded-lg p-4 md:p-6 text-white flex flex-col justify-center min-h-[100px] sm:min-h-[120px] md:min-h-[8rem] lg:min-h-[10rem]"
+                            >
+                                <div className="flex flex-col gap-3 md:gap-4">
+                                    <Image
+                                        src="https://cdn.prod.website-files.com/684f91df71b424da63a64df2/6852e22c702090d266424c1a_quote.svg"
+                                        alt="Quote icon"
+                                        width={20}
+                                        height={20}
+                                        className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0"
+                                    />
+                                    <div className="font-['Lora',serif] text-white leading-relaxed tracking-[-0.03em] text-xs sm:text-sm md:text-sm lg:text-base">
+                                        "When a storm damaged our roof, TotalHome Security had an adjuster onsite within hours. We got our full claim approved in 3 days—no fights, no delays. THIS is how insurance should work."
+                                    </div>
+                                </div>
+                            </motion.div>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>
